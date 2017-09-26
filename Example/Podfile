@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BundleExtension_Example' do
+  pod 'BundleExtension', :path => '../'
+
+  target 'BundleExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
